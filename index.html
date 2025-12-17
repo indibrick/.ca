@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mudit Chhura | One-Stop Mortgage, Real Estate & Renovation Hub in Ontario</title>
+    <meta name="description" content="Buy, finance, renovate, and close your home with one trusted expert. IndiBrick connects you with mortgages, realtors, lawyers, and contractors across Ontario. Start your pre-approval today.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#000000',
+              secondary: '#1a1a1a',
+              accent: '#f5f5f5',
+              gold: '#D4AF37'
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'ticker': 'ticker 30s linear infinite',
+            },
+            keyframes: {
+              ticker: {
+                '0%': { transform: 'translateX(0)' },
+                '100%': { transform: 'translateX(-50%)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+      body { font-family: 'Inter', sans-serif; }
+      .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); }
+      .cinematic-gradient { background: linear-gradient(to right, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0) 100%); }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "recharts": "https://esm.sh/recharts@^3.6.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.10.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white text-slate-900 antialiased overflow-x-hidden">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
